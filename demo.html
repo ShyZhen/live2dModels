@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sss</title>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./live2d/css/waifu.css" />
+    <script type="text/javascript" src="./live2d/js/live2d.js"></script>
+    <script type="text/javascript" src="./live2d/js/waifu.js"></script>
+</head>
+<body>
+
+<span class="tete">血小板</span>
+
+<div class="waifu ">
+    <div class="waifu-tips" style="opacity:0"></div>
+    <canvas id="live2d" width="280" height="250" class="live2d"></canvas>
+</div>
+
+<script type="text/javascript">
+    loadlive2d("live2d", "./live2d/model/kesshouban/model.json");
+    //loadlive2d("live2d", "./live2d/model/pio/model.php");
+    //loadlive2d("live2d", "./live2d/model/tia/model.json");
+</script>
+
+</body>
+</html>
