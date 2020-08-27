@@ -13,6 +13,7 @@
  - 如果出现进入新页面canvas错乱的问题，查看是否使用了pjax，不支持
  - 自行修改message.json
 
-
+### 注意事项
+ - 很多朋友反馈 按照demo的来最后只显示血小板3个字，文本框里也空空的，注意当屏幕小于860px宽度时候会自动隐藏模型，具体修改在 `live2d/css/waifu.css`的`71`行
 
   [1]: https://www.litblc.com/archives/772.html
